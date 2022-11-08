@@ -207,9 +207,25 @@ function formSearch() {
     // let labelSearch = document.getElementsByTagName('label');
     // //let inputSearch = labelSearch.getElementsByTagName('input');
     // console.log(labelSearch.getElementsByTagName('input'));
-    let find = document.getElementsByTagName('form');
-    console.log(find.getElementByName('search-person'));
+    // let find = document.getElementsByTagName('form');
+    // console.log(find.getElementByName('search-person'));
+    // let find = document.getElementsByName('search-person');
+    // console.log(find);
     
 }
 formSearch()
 
+// function labelSearch() {                                    
+//     let find = label.getElementsByTagName('input');
+//     console.log(find);
+// }
+
+// labelSearch() 
+
+// console.log('hi')
+
+// function formSearch() {
+//     console.log(document.getElementsByTagName('form').name);
+    
+// }
+// formSearch()
