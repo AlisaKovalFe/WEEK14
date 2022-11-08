@@ -122,7 +122,94 @@
 
 // yourName() 
 
+//////////////////////////////////Домашка (решение тестов)//////////////////////////////
 
-let person = prompt('Как тебя зовут?', 'Твое имя');
-let yourName = () => alert(`Привет, ${person}!`); 
-yourName()
+//10.
+// let person = prompt('Как тебя зовут?', 'Твое имя');
+// let yourName = () => alert(`Привет, ${person}!`); 
+// yourName()
+
+// let yourName = () => {
+//     let person = prompt('Как тебя зовут?', 'Твое имя');
+//     alert(`Привет, ${person}!`)
+// }
+
+//8.
+// yourName()
+
+// function changeMe() {
+//     let catImage = document.getElementById('catImage');
+//     catImage.src = "https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9"
+// }
+
+// function pathMe() {
+//     window.location.href = "https://learn.javascript.ru/";    
+// }
+
+//9.
+// document.getElementById('greet').value = "";
+
+//7.
+
+
+//console.log(document.getElementById('age-table'));           //работает
+
+
+// function labelSearch() {                                     //работает
+//     let tbl = document.getElementById('age-table');
+//     console.log(tbl.getElementsByTagName('label'));
+// }
+
+// labelSearch()                            
+
+
+// function formName() {                                        //работает
+//     let formNameSearch = document.getElementsByTagName('form');
+//     console.log(formNameSearch[1]);
+// }
+// formName()
+
+
+
+
+////////////////////////////////////////пробы 7 задания////////////////////////////////////////
+//console.log(table.getElementsByTagName('label'));
+
+// function labelsTable() {
+//     let lab = document.getElementsByTagName('table');
+//     console.log(lab.label[0]);
+// }
+// labelsTable() 
+
+
+
+// function exp() {
+//     let formName = document.getElementsByTagName('form');
+//     console.log(formName.name);
+// }
+// exp()
+
+//console.log(form.getElementsByName('name'));
+
+
+// let inputs = table.getElementsByTagName('input');
+// console.log(inputs);
+
+//console.log(table.getElementsByTagName('input'))
+
+
+function formSearch() {   
+    // let search = document.getElementsByTagName('form');
+    // let search2 = search.getElementsByName('search-person');
+    // console.log(search2); 
+    // let find = document.getElementsByTagName('form');
+    // console.log(find.getElementsByName('search-person'));
+    // let labelSearch = document.getElementsByTagName('label');
+    // //let inputSearch = labelSearch.getElementsByTagName('input');
+    // console.log(labelSearch.getElementsByTagName('input'));
+    let find = document.getElementsByTagName('form');
+    console.log(find.getElementByName('search-person'));
+    
+}
+formSearch()
+
