@@ -247,5 +247,11 @@ formSearch()
 //   console.log(elem.value); // значение
 //   console.log(input.type);
 
-console.log(input.getAttribute('checked')); // значение атрибута: пустая строка
-  console.log(input.checked); // значение свойства: true
+// console.log(input.getAttribute('checked')); // значение атрибута: пустая строка
+//   console.log(input.checked); // значение свойства: true
+
+function serch() {
+    let label = document.getElementsByTagName('label');
+    console.log(label.getElementsByTagName('input'));
+}
+serch()

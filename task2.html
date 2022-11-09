@@ -7,24 +7,33 @@
     <title>Task2</title>
 
     <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
         .wrap {
             width: 9rem;
             height: 5rem;
             background-color: aqua;
+            margin: 1rem;
         }
-
+        
+        .backGround {
+            background-color: blueviolet;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Раскрасим дивы</h1>
-    <div class="wrap" id="first" onclick="colorDiv()">First div</div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <h1>Раскрасим divs</h1>
+    <div class="container">        
+        <div class="wrap" id="first" onclick="colorDivFisrt()"></div>
+        <div class="wrap" onclick="colorDivSecond(this)"></div>
+        <div class="wrap third" onclick="colorDivThird()"></div>
+        <div class="wrap" onclick="colorDivFourth(this)"></div>
+    </div>
 
-
-    <!--<div id="div" style="color:red;font-size:120%">Hello</div>-->
     <script src="task2.js"></script>
     
     

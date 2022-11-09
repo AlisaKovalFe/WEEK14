@@ -1,15 +1,17 @@
-function colorDiv() {
-
+function colorDivFisrt() {
     let first = document.getElementById('first');
-    first.style.background = 'red';
+    first.style.backgroundColor = 'red';
 };
 
+function colorDivSecond(sender) {
+    sender.classList.add('backGround');
+}
 
+function colorDivThird() {
+    let third = document.querySelector('.third');
+    third.style.backgroundColor = 'green';
+}
 
-
-
-// alert(div.getAttribute('style')); // color:red;font-size:120%
-
-//   // объект
-//   alert(div.style); // [object CSSStyleDeclaration]
-//   alert(div.style.color); // red
+function colorDivFourth(sender) {
+    sender.classList.add('backGround');
+}
