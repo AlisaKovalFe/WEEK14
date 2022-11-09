@@ -160,6 +160,13 @@
 //     console.log(tbl.getElementsByTagName('label'));
 // }
 
+// function exp() {
+//     let find = table.getElementsByTagName('label');
+//     console.log(find);
+// }
+// exp()
+
+
 // labelSearch()                            
 
 
@@ -225,7 +232,20 @@ formSearch()
 // console.log('hi')
 
 // function formSearch() {
-//     console.log(document.getElementsByTagName('form').name);
-    
+//     let form = document.getElementsByName('search-person');
+//     console.log(form);
 // }
 // formSearch()
+
+// let articles = form.getElementsByClassName('article');
+//   crossOriginIsolated.log(articles);
+
+//form.getElementsByTagName('input')[0]
+
+// console.log(elem.type); // "text"
+//   console.log(elem.id); // "elem"
+//   console.log(elem.value); // значение
+//   console.log(input.type);
+
+console.log(input.getAttribute('checked')); // значение атрибута: пустая строка
+  console.log(input.checked); // значение свойства: true
