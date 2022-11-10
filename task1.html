@@ -7,10 +7,36 @@
     <title>Task1</title>
 
     <style>
-        button {
-            width: 7rem;
-            height: 3rem;
+        .btn {
+            width: 7.5rem;
+            height: 2rem;
+            margin-bottom: 0.2rem;
+            background-color: rgb(206, 173, 206);
+            border: 1px solid rgb(197, 21, 197);
+            border-radius: 0.2rem;
         }
+
+        input {
+            width: 6.64rem;
+            height: 1.7rem;
+            margin-bottom: 0.2rem;
+            padding: 1px 6px;
+            border: 1px solid rgb(197, 21, 197);
+            border-radius: 0.2rem;
+            text-align: center;
+        }
+
+        .result {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 15.1rem;
+            height: 1.7rem;
+            border: 1px solid rgb(197, 21, 197);
+            border-radius: 0.2rem;
+            text-align: center;
+        }
+
     </style>
 
 </head>
@@ -18,10 +44,20 @@
 
 <body>
     <h1>Калькулятор</h1>
-    <input id="firstNumber" type="number">
-    <input id="secondnumber" type="number">
-    <button onclick="showFirstNumber()"></button>
-    <div id="result"></div>
+    <div class=>
+        <input id="firstNumber" type="number" placeholder="первое число">
+        <input id="secondnumber" type="text" placeholder="второе число"> <!--здесь специально такой тип, чтобы проверить if else в функции-->
+    </div>
+    <div>
+        <button class="btn" onclick="plus()">Сложить</button>
+        <button class="btn" onclick="minus()">Вычесть</button>
+    </div>
+    <div>
+        <button class="btn" onclick="mult()">Умножить</button>
+        <button class="btn" onclick="divide()">Поделить</button>
+    </div>
+    
+    <div class="result" id="result"></div>
     
 
     <script src="task1.js"></script>

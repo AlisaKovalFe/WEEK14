@@ -1,12 +1,52 @@
-function showFirstNumber() {
+//переменные создавала в каждой функции. Если выносила их в глобальные переменные,то почему-то всегда cрабатывал esle. Кот объясни, плиз почему. Пыталась добавиь кнопку очисить, не поняла как
+
+function plus() {
     let firstNumber = document.getElementById('firstNumber').value;
     let secondNumber = document.getElementById('secondnumber').value;
-    // if (Number(firstNumber) && Number(secondNumber)) {
-    //     alert(+a + +b);
-    // } else {
-    //     alert('Не посчитаю, введи числа')
-    // }
-    let a = (Number(firstNumber) + Number(secondNumber));
-    
-    document.getElementById('result').innerHTML = a
+    if (Number(firstNumber) && Number(secondNumber)) {
+        let result = (+firstNumber + +secondNumber);
+        document.getElementById('result').innerHTML = result;
+    } else {
+        let result = 'Не посчитаю, введи число'; //если не ставлю let тоже работает, не понимаю почему, Кот объясни, плиз
+        document.getElementById('result').innerHTML = result;
+    }
 }
+
+function minus() {
+    let firstNumber = document.getElementById('firstNumber').value;
+    let secondNumber = document.getElementById('secondnumber').value;
+    if (Number(firstNumber) && Number(secondNumber)) {
+        let result = (firstNumber - secondNumber);
+        document.getElementById('result').innerHTML = result;
+    } else {
+        let result = 'Не посчитаю, введи число'; 
+        document.getElementById('result').innerHTML = result;
+    }
+}
+
+function mult() {
+    let firstNumber = document.getElementById('firstNumber').value;
+    let secondNumber = document.getElementById('secondnumber').value;
+    if (Number(firstNumber) && Number(secondNumber)) {
+        let result = (firstNumber * secondNumber);
+        document.getElementById('result').innerHTML = result;
+    } else {
+        let result = 'Не посчитаю, введи число'; 
+        document.getElementById('result').innerHTML = result;
+    }
+}
+
+function divide() {
+    let firstNumber = document.getElementById('firstNumber').value;
+    let secondNumber = document.getElementById('secondnumber').value;
+    let result = (firstNumber / secondNumber);
+        document.getElementById('result').innerHTML = result;
+    if (Number(firstNumber) && Number(secondNumber)) {
+        let result = (firstNumber / secondNumber);
+        document.getElementById('result').innerHTML = result;
+    } else {
+        let result = 'Не посчитаю, введи число'; 
+        document.getElementById('result').innerHTML = result;
+    }
+}
+
