@@ -176,6 +176,13 @@
 // }
 // formName()
 
+// и так 
+
+// function formNameSearch() {
+//     let a = document.getElementsByName('search-person');
+//     console.log(a)
+// }
+// formNameSearch()
 
 
 
@@ -250,8 +257,9 @@ formSearch()
 // console.log(input.getAttribute('checked')); // значение атрибута: пустая строка
 //   console.log(input.checked); // значение свойства: true
 
-function serch() {
-    let label = document.getElementsByTagName('label');
-    console.log(label.getElementsByTagName('input'));
-}
-serch()
+// function serch() {
+//     let label = document.getElementsByTagName('label');
+//     console.log(label.getElementsByTagName('input'));
+// }
+// serch()
+

@@ -102,6 +102,14 @@ DOM – объектная модель документа, которая пр�
     }
     formName()
 
+    или так
+
+    function formNameSearch() {
+    let a = document.getElementsByName('search-person');
+    console.log(a)
+    }
+    formNameSearch()
+
 8. можно так перейти на другую страницу путем нажатия кнопки:
 
 в html пишем <button onclick="pathMe()"></button> 
