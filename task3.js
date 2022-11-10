@@ -7,6 +7,7 @@ function goNext() {
 
 function goPrevious() {
     let imageChangePrevious = document.querySelector('#imageNew');
-    imageChangePrevious.src = './assets/maffin.png';
+    imageChangePrevious.src = './assets/croissant.png';
     
 }
+

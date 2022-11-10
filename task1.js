@@ -49,4 +49,3 @@ function divide() {
         document.getElementById('result').innerHTML = result;
     }
 }
-
